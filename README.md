@@ -1,4 +1,11 @@
-# 💤 LazyVim
+# 💤 Roman's Configuration
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+A personal Neovim configuration based on [LazyVim](https://github.com/LazyVim/LazyVim).
+
+## 🚀 Quick Installation (macOS only)
+
+Run this command in your terminal to automatically install everything:
+
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/RomanPodkovyrin/neovim/master/install.sh)
+```
