@@ -72,7 +72,10 @@ install_dependencies() {
         "neovim"
         "ripgrep"
         "fd"
-        "fzf"
+        "fzf",
+        "lazysql",
+        "jesseduffield/lazydocker/lazydocker",
+        "lazygit"
     )
     
     # Install Nerd Font (cask)
