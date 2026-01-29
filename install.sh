@@ -72,9 +72,9 @@ install_dependencies() {
         "neovim"
         "ripgrep"
         "fd"
-        "fzf",
-        "lazysql",
-        "jesseduffield/lazydocker/lazydocker",
+        "fzf"
+        "lazysql"
+        "jesseduffield/lazydocker/lazydocker"
         "lazygit"
     )
     
