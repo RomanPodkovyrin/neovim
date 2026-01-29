@@ -118,12 +118,9 @@ clone_config() {
     # Create .config directory if it doesn't exist
     mkdir -p "$HOME/.config"
     
-    # Clone to temp location
-    git clone "https://github.com/RomanPodkovyrin/neovim.git" "$HOME/.config/nvim-temp"
-    # Move the repo contents to nvim directory (git clone creates a 'neovim' subdirectory)
-    mv "$HOME/.config/nvim-temp" "$HOME/.config/nvim"
-    # Clean up temp directory
-    rm -rf "$HOME/.config/nvim-temp"
+
+    git clone "https://github.com/RomanPodkovyrin/neovim.git" "$HOME/.config/nvim"
+
     
     print_success "Neovim configuration cloned successfully"
 }
